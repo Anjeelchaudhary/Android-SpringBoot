@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">DummyFirst App</string>
     <string name="send_message">send</string>
     <string name="receive_message">receive</string>
     <string name="delete_message">delete</string>
