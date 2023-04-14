@@ -7,4 +7,23 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 https://www.springframework.org/schema/beans/spring-beans.xsd
 https://www.springframework.org/schema/context
 https://www.springframework.org/schema/context/spring-context.xsd"">
+
+
+     <!--This is our bean for metaData-->
+	<bean class="com.springcore.corespring" name="StudentOne">
+	
+	<property name="id">
+		<value>22344</value>
+	</property>
+	
+	<property name="name">
+		<value>Anjeel chaudhary</value>
+	</property>
+	
+	<property name="address">
+		<value>Kathmadu,Nepal</value>
+	</property>
+	
+	</bean>
+	
 </beans>
