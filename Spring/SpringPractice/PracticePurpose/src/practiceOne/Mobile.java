@@ -9,13 +9,13 @@ public class Mobile {
 //		Namastey namastey = new Namastey();
 //		namastey.calling();
 //		namastey.data();
-		
-		Sim sim = new Ncell();
-		sim.calling();
-		sim.data();
-		
-		Sim sim2 = new Namastey();
-		sim2.calling();
-		sim2.data();
+//		
+//		Sim sim = new Ncell();
+//		sim.calling();
+//		sim.data();
+//		
+//		Sim sim2 = new Namastey();
+//		sim2.calling();
+//		sim2.data();
 	}
 }

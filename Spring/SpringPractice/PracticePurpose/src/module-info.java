@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author anjeel
- *
- */
-module PracticePurpose {
-}
