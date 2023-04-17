@@ -1,4 +1,4 @@
-package practiceOne;
+package com.demo.demoorg;
 
 public class Mobile {
 	public static void main(String[] args) {
