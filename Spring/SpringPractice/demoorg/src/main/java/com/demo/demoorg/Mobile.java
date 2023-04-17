@@ -1,5 +1,7 @@
 package com.demo.demoorg;
 
+import org.springframework.context.ApplicationContext;
+
 public class Mobile {
 	public static void main(String[] args) {
 
@@ -18,5 +20,7 @@ public class Mobile {
 //		Sim sim2 = new Namastey();
 //		sim2.calling();
 //		sim2.data();
+		
+		ApplicationContext context = ClassPathXmlApplicationContext("beans.xml");
 	}
 }
