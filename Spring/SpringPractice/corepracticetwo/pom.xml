@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.demo</groupId>
-  <artifactId>demoorg</artifactId>
+  <groupId>practiceTwo</groupId>
+  <artifactId>corepracticetwo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>demoorg</name>
+  <name>corepracticetwo</name>
   <url>http://www.example.com</url>
 
   <properties>
@@ -25,11 +25,6 @@
       <version>5.7.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-context</artifactId>
-    <version>5.2.12.RELEASE</version>
-</dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
