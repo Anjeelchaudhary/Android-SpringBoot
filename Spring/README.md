@@ -1,4 +1,4 @@
-#1. Steps to configure springFramework in eclipse
+# 1. Steps to configure springFramework in eclipse
 
 a) : [ Spring Framework Jar Files ](https://repo.spring.io/ui/native/release/org/springframework/spring/)
 
