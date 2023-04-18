@@ -1,0 +1,15 @@
+digraph "com.demo:demoorg:jar:0.0.1-SNAPSHOT" { 
+	"com.demo:demoorg:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test" ; 
+	"com.demo:demoorg:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-context:jar:5.2.12.RELEASE:compile" ; 
+	"com.demo:demoorg:jar:0.0.1-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-params:jar:5.7.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test" -> "org.junit.platform:junit-platform-engine:jar:1.7.1:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.7.1:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.1:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.platform:junit-platform-engine:jar:1.7.1:test" -> "org.junit.platform:junit-platform-commons:jar:1.7.1:test" ; 
+	"org.springframework:spring-context:jar:5.2.12.RELEASE:compile" -> "org.springframework:spring-aop:jar:5.2.12.RELEASE:compile" ; 
+	"org.springframework:spring-context:jar:5.2.12.RELEASE:compile" -> "org.springframework:spring-beans:jar:5.2.12.RELEASE:compile" ; 
+	"org.springframework:spring-context:jar:5.2.12.RELEASE:compile" -> "org.springframework:spring-core:jar:5.2.12.RELEASE:compile" ; 
+	"org.springframework:spring-context:jar:5.2.12.RELEASE:compile" -> "org.springframework:spring-expression:jar:5.2.12.RELEASE:compile" ; 
+	"org.springframework:spring-core:jar:5.2.12.RELEASE:compile" -> "org.springframework:spring-jcl:jar:5.2.12.RELEASE:compile" ; 
+ } 
