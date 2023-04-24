@@ -10,15 +10,12 @@
 	http://www.springframework.org/schema/p">
 	
 	<bean class="com.corespring.coresprin.Student" name="Student1">
-		<property name="studentId">
-			<value>191736</value>
-		</property>
-		<property name="studentName">
-			<value>Anjeel</value>
-		</property>
-		<property name="studentAddress">
-			<value>KTM</value>
-		</property>
+		<property name="studentId" value="191736" />
+		
+		<property name="studentName" value="Anjeel" />
+		
+		<property name="studentAddress" value="KTM" />
+		
 	</bean>
 	
 	</beans>
