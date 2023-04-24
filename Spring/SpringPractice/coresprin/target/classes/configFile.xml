@@ -9,14 +9,23 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/p">
 	
+	<!-- Attribute method of setting variable -->
 	<bean class="com.corespring.coresprin.Student" name="Student1">
-		<property name="studentId" value="191736" />
+		<property name="studentId">
+			<value>191736</value>
+		</property>
 		
-		<property name="studentName" value="Anjeel" />
+		<property name="studentName">
+		<value>Anjeel</value>
+		</property>
 		
-		<property name="studentAddress" value="KTM" />
+		<property name="studentAddress">
+		<value>KTM</value>
+		</property>
 		
 	</bean>
+	
+	<!--   Reference type for setting variable -->
 	<bean class="com.corespring.coresprin.Student" name="Student2">
 		<property name="studentId" value="191702" />
 		
@@ -25,5 +34,8 @@
 		<property name="studentAddress" value="KTM" />
 		
 	</bean>
+	
+	<!-- BestMethod i.e = p schema and shortest method -->
+	<bean class="com.corespring.coresprin.Student" name="Student3" p:studentId="191715" p:studentName="Pradeep" p:studentAddress="KTM" />
 	
 	</beans>
