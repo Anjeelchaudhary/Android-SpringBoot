@@ -17,5 +17,13 @@
 		<property name="studentAddress" value="KTM" />
 		
 	</bean>
+	<bean class="com.corespring.coresprin.Student" name="Student2">
+		<property name="studentId" value="191702" />
+		
+		<property name="studentName" value="Anoj" />
+		
+		<property name="studentAddress" value="KTM" />
+		
+	</bean>
 	
 	</beans>
