@@ -2,7 +2,7 @@ package com.corespring.ref;
 
 public class A {
 	private int x;
-	public B obj;
+	private B obj;
 	public int getX() {
 		return x;
 	}

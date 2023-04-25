@@ -1,7 +1,7 @@
 package com.corespring.ref;
 
 public class B {
-	public int y;
+	private int y;
 
 	public int getY() {
 		return y;

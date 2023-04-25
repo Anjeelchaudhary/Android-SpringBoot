@@ -9,14 +9,14 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/p">
 	
-	<bean name="b" class="com.corespring.ref.B">
+	<bean name="bref" class="com.corespring.ref.B">
 		<property name="y" value="90" />
 	</bean>
 	
-	<bean name="a" class="com.springcore.ref.A">
+	<bean name="aref" class="com.springcore.ref.A">
 		<property name="x" value="50" />
 		<property name="ob">
-			<ref bean="b" />
+			<ref bean="bref" />
 		</property>
 	</bean>
 	
