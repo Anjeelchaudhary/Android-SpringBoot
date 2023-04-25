@@ -2,6 +2,7 @@ package com.corespring.collections;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 
 public class Emp {
@@ -9,6 +10,7 @@ public class Emp {
 	private List<String> phones;
 	private Set<String> addressess;
 	private Map<String , String> courses;
+	
 	public String getName() {
 		return name;
 	}
@@ -37,7 +39,7 @@ public class Emp {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Emp(String name, List<String> phones, Set<String> addressess, Map<String, String> courses) {
+	public Emp(String name, List<String> phones, Set<String> addressess, Map<String, String> courses,Properties props) {
 		super();
 		this.name = name;
 		this.phones = phones;
