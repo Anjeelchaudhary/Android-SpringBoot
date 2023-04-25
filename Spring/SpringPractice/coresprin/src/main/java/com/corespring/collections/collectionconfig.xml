@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	https://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/p">
+	
+	<!-- Attribute method of setting variable -->
+	<bean name="employee1" class="com.corespring.collections.Emp">
+		<property name="name" value="govinda" />
+		<property name="phones"> 
+			<list>
+				<value>123456789</value>
+				<value>987654321</value>
+			</list>
+		</property>
+		<property name="addressess">
+			<set>
+				<value>ktm</value>
+				<value>pkr</value>
+				<value>npj</value>
+			</set>
+		</property>
+		<property name="course">
+			<map>
+				<entry key="javaCore" value="ThreeMonths" />
+				<entry key="Cplusplus" value="ThreepointFiveMonths" />
+			</map>
+		</property>
+		
+	</bean>
+	</beans>
