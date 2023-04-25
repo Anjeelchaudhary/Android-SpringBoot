@@ -12,12 +12,14 @@
 	<!-- Attribute method of setting variable -->
 	<bean name="employee1" class="com.corespring.collections.Emp">
 		<property name="name" value="govinda" />
+		
 		<property name="phones"> 
 			<list>
 				<value>123456789</value>
 				<value>987654321</value>
 			</list>
 		</property>
+		
 		<property name="addressess">
 			<set>
 				<value>ktm</value>
@@ -25,12 +27,13 @@
 				<value>npj</value>
 			</set>
 		</property>
-		<property name="course">
+		
+		<property name="courses">
 			<map>
 				<entry key="javaCore" value="ThreeMonths" />
 				<entry key="Cplusplus" value="ThreepointFiveMonths" />
+				
 			</map>
 		</property>
-		
 	</bean>
 	</beans>
