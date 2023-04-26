@@ -9,8 +9,8 @@ public class Test {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/corespring/reffff/conReff.xml");
 		Aa tmp = (Aa) context.getBean("aRef");
 		System.out.println(tmp.getX());
-		Bb temp = (Bb) context.getBean("bRef");
-		System.out.println(temp.getY());
+		
+		System.out.println(tmp.getObj().getY());
 	}
 
 }
