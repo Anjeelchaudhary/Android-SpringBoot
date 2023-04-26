@@ -14,9 +14,10 @@
 	
 	<bean name="aRef" class="com.corespring.reffff.Aa">
 		<property name="x" value="5" />
-		<property name="obj">
+		<!-- <property name="obj">
 			<ref bean="bRef"></ref>
-		</property>
+		</property> -->
+		<property name="obj" ref="bRef"/>
 	</bean>
 
 </beans>
