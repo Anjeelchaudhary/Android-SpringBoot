@@ -1,14 +1,13 @@
-package com.corespring.ref;
+package com.corespring.reffff;
 
-public class A {
+public class Aa {
 	private int x;
-	private B obj;
-	
+	private Bb obj;
 	@Override
 	public String toString() {
-		return "A [x=" + x + ", obj=" + obj + "]";
+		return "Aa [x=" + x + "]";
 	}
-	public A() {
+	public Aa() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -18,10 +17,10 @@ public class A {
 	public void setX(int x) {
 		this.x = x;
 	}
-	public B getObj() {
+	public Bb getObj() {
 		return obj;
 	}
-	public void setObj(B obj) {
+	public void setObj(Bb obj) {
 		this.obj = obj;
 	}
 }
