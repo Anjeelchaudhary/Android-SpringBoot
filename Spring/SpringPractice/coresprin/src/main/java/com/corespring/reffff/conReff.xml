@@ -12,12 +12,12 @@
 		<property name="y" value="10" />
 	</bean>
 	
-	<bean name="aRef" class="com.corespring.reffff.Aa">
-		<property name="x" value="5" />
-		<!-- <property name="obj">
+	<bean name="aRef" class="com.corespring.reffff.Aa" p:x="5" p:obj-ref="bRef" />
+		<!-- <property name="x" value="5" />
+		<property name="obj">
 			<ref bean="bRef"></ref>
-		</property> -->
-		<property name="obj" ref="bRef"/>
-	</bean>
+		</property>
+		<property name="obj" ref="bRef"/> -->
+	<!-- </bean> -->
 
 </beans>
