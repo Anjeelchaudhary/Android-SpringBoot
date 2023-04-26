@@ -1,4 +1,4 @@
-package com.corespring.collections;
+spackage com.corespring.collections;
 
 import java.util.List;
 import java.util.Map;

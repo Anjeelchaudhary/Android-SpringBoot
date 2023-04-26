@@ -32,7 +32,6 @@
 			<map>
 				<entry key="javaCore" value="ThreeMonths" />
 				<entry key="Cplusplus" value="ThreepointFiveMonths" />
-				
 			</map>
 		</property>
 	</bean>
