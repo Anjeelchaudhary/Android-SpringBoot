@@ -9,9 +9,14 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/p">
 	
+	<bean class="com.corespring.contructorref.Certificate" name="certify">
+		<constructor-arg value="works in technology of java" />
+	</bean>
+	
 	<bean class="com.corespring.contructorref.Person" name="person"> 
 		<constructor-arg value="Anjeel" /> 
 		<constructor-arg value="191736" />
+		<constructor-arg ref="certify" />
 	</bean>
 	
 	</beans>
