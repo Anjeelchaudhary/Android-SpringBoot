@@ -17,6 +17,14 @@
 		<constructor-arg value="Anjeel" /> 
 		<constructor-arg value="191736" />
 		<constructor-arg ref="certify" />
+		<constructor-arg>
+			<list>
+				<value>Java</value>
+				<value>C++</value>
+				<value>C programming</value>
+				<value>Web Technology</value>
+			</list>
+		</constructor-arg>
 	</bean>
 	
 	</beans>
