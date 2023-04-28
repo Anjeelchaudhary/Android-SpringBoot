@@ -14,4 +14,8 @@
 		<property name="expense" value="100"></property>
 	</bean>
 	
+	<bean class="com.corespring.lifecycle.Animal" name="a1">
+		<property name="price" value="400" />
+	</bean>
+	
 	</beans>
