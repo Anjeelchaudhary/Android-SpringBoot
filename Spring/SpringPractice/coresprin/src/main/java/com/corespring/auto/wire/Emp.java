@@ -20,5 +20,10 @@ public class Emp {
 		super();
 		this.address = address;
 	}
+
+	@Override
+	public String toString() {
+		return "Emp [address=" + address + "]";
+	}
 	
 }
