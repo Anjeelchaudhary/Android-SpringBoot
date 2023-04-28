@@ -9,10 +9,10 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/p">
 	
-	<bean class="com.corespring.auto.wire.Address" name="address">
+	<bean class="com.corespring.auto.wire.annotation.Address" name="address">
 		<property name="city" value="Kathmandu"/>
 		<property name="wadaNo" value="Two(2)" />
 	</bean>
 	
-	<bean class="com.corespring.auto.wire.Emp" name="emp1" autowire="byName"/>
+	<bean class="com.corespring.auto.wire.annotation.Emp" name="emp1" autowire="byName"/>
 	</beans>
