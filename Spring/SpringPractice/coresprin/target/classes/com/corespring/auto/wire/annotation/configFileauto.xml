@@ -16,5 +16,10 @@
 		<property name="wadaNo" value="Two(2)" />
 	</bean>
 	
+	<bean class="com.corespring.auto.wire.annotation.Address" name="address1">
+		<property name="city" value="Pokhara"/>
+		<property name="wadaNo" value="tempWada" />
+	</bean>
+	
 	<bean class="com.corespring.auto.wire.annotation.Emp" name="emp"/>
 	</beans>
