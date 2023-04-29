@@ -20,9 +20,16 @@
 		<value>Elephant</value>	
 		<value>Fruit</value>
 	 </util:list>
+	 
+	 <util:map map-class="java.util.HashMap" id="subjects">
+	 	<entry key="Spring" value="12000" />
+	 	<entry key="Angular" value="8000"/>
+	 	<entry key="Js" value="10000" />
+	 </util:map>
 	
 	<bean class="com.spring.core.standalone.collection.Person" name="persoo1">
 		<property name="friendsName" ref="Frouts"/>
+		<property name="subjects" ref="subjects" />
 	</bean>
 	
 	</beans>
