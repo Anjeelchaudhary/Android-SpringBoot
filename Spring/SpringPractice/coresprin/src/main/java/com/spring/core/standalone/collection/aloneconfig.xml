@@ -12,10 +12,17 @@
 	http://www.springframework.org/schema/util
 	http://www.springframework.org/schema/util/spring-util.xsd">
 	
-	<util:list>   </util:list>
+	<util:list list-class="java.util.LinkedList" id="Frouts" > 
+		<value>Apple</value>	
+		<value>Banana</value>
+		<value>Cherry</value>	
+		<value>Dinaa</value>	
+		<value>Elephant</value>	
+		<value>Fruit</value>
+	 </util:list>
 	
 	<bean class="com.spring.core.standalone.collection.Person" name="persoo1">
-		<property name="friendsName"/>
+		<property name="friendsName" ref="Frouts"/>
 	</bean>
 	
 	</beans>
