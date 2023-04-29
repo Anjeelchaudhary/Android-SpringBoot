@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/corespring/auto/wire/configFileauto.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/corespring/auto/wire/annotation/configFileauto.xml");
 		Emp em = context.getBean(Emp.class);
 		System.out.println(em);
 	}

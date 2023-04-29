@@ -1,6 +1,9 @@
 package com.corespring.auto.wire.annotation;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Emp {
+	@Autowired
 	private Address address;
 
 	public Address getAddress() {
