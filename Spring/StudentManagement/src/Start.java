@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.nio.Buffer;
 
 import com.student.manage.Student;
+import com.student.manage.StudentC;
 
 
 public class Start {
@@ -32,6 +33,7 @@ public class Start {
 				 
 				 Student std = new Student(id, name, cellphNo, address);
 				 
+				 StudentC.stuCreate(std);
 				 
 			 }else if(check == 2) {
 				 //for deleting
