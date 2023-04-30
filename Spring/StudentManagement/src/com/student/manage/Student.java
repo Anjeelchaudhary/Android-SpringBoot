@@ -1,19 +1,31 @@
 package com.student.manage;
 
 public class Student {
-	private int studnetId;
+	private String studnetId;
 	private String studentName;
-	private int mobileNo;
-	private String studentAddress;
-	@Override
-	public String toString() {
-		return "Student [studnetId=" + studnetId + ", studentName=" + studentName + ", mobileNo=" + mobileNo
-				+ ", studentAddress=" + studentAddress + "]";
+	private String mobileNo;
+	private String address;
+	public Student(String studnetId, String studentName, String mobileNo, String address) {
+		super();
+		this.studnetId = studnetId;
+		this.studentName = studentName;
+		this.mobileNo = mobileNo;
+		this.address = address;
 	}
-	public int getStudnetId() {
+	public Student(String address) {
+		super();
+		this.address = address;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getStudnetId() {
 		return studnetId;
 	}
-	public void setStudnetId(int studnetId) {
+	public void setStudnetId(String studnetId) {
 		this.studnetId = studnetId;
 	}
 	public String getStudentName() {
@@ -22,27 +34,20 @@ public class Student {
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
 	}
-	public int getMobileNo() {
+	public String getMobileNo() {
 		return mobileNo;
 	}
-	public void setMobileNo(int mobileNo) {
+	public void setMobileNo(String mobileNo) {
 		this.mobileNo = mobileNo;
 	}
-	public String getStudentAddress() {
-		return studentAddress;
-	}
-	public void setStudentAddress(String studentAddress) {
-		this.studentAddress = studentAddress;
-	}
+
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Student(int studnetId, String studentName, int mobileNo, String studentAddress) {
-		super();
-		this.studnetId = studnetId;
-		this.studentName = studentName;
-		this.mobileNo = mobileNo;
-		this.studentAddress = studentAddress;
+	@Override
+	public String toString() {
+		return "Student [studnetId=" + studnetId + ", studentName=" + studentName + ", mobileNo=" + mobileNo
+				+ ", address=" + address + "]";
 	}
 }

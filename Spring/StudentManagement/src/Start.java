@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.Buffer;
 
+import com.student.manage.Student;
+
+
 public class Start {
 
 	public static void main(String[] args) throws IOException {
@@ -18,6 +21,18 @@ public class Start {
 			 
 			 if(check == 1) {
 				 //for adding
+				 System.out.println("Enter student id : ");
+				 String id = br.readLine();
+				 System.out.println("Enter student name : ");
+				 String name = br.readLine();
+				 System.out.println("Enter studnet mobileNO : ");
+				 String cellphNo = br.readLine();
+				 System.out.println("Enter studnet Address : ");
+				 String address = br.readLine();
+				 
+				 Student std = new Student(id, name, cellphNo, address);
+				 
+				 
 			 }else if(check == 2) {
 				 //for deleting
 			 }else if(check == 3) {
