@@ -31,7 +31,7 @@ public class Start {
 				 String address = br.readLine();
 				 
 				 Student std = new Student(id, name, cellphNo, address);
-				 boolean answer = StudentC.insertStudentToStudentManage(std);
+//				 boolean answer = StudentC.insertStudentToStudentManage(std);
 				 StudentC.stuCreate(std);
 				 
 			 }else if(check == 2) {
