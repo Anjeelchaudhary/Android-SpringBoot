@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.Buffer;
 
 import com.student.manage.Student;
 import com.student.manage.StudentC;
@@ -32,7 +31,7 @@ public class Start {
 				 String address = br.readLine();
 				 
 				 Student std = new Student(id, name, cellphNo, address);
-				 
+				 boolean answer = StudentC.insertStudentToStudentManage(std);
 				 StudentC.stuCreate(std);
 				 
 			 }else if(check == 2) {
