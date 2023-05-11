@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IOcontainer/IOcontainer.iml" filepath="$PROJECT_DIR$/IOcontainer/IOcontainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticePurpose/PracticePurpose.iml" filepath="$PROJECT_DIR$/PracticePurpose/PracticePurpose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringPractice.iml" filepath="$PROJECT_DIR$/.idea/SpringPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/corepracticetwo/src/main/main.iml" filepath="$PROJECT_DIR$/corepracticetwo/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coresprin/src/main/main1.iml" filepath="$PROJECT_DIR$/coresprin/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoorg/src/main/main2.iml" filepath="$PROJECT_DIR$/demoorg/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/praticethree/praticethree.iml" filepath="$PROJECT_DIR$/praticethree/praticethree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoorg/src/test/test.iml" filepath="$PROJECT_DIR$/demoorg/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coresprin/src/test/test1.iml" filepath="$PROJECT_DIR$/coresprin/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/corepracticetwo/src/test/test2.iml" filepath="$PROJECT_DIR$/corepracticetwo/src/test/test2.iml" />
+    </modules>
+  </component>
+</project>
