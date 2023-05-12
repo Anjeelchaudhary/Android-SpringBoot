@@ -1,5 +1,8 @@
 package jdbc;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 /* 
  * JDBC performs in 7 steps
  * 1:- loading of package
@@ -22,6 +25,7 @@ public class Test {
 		String query = "";
 		
 		Class.forName("com.mysql.jdbc.Driver");
+		Connection con = DriverManager.getConnection(url, name , query);
 
 	}
 
