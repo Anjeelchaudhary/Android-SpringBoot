@@ -14,9 +14,14 @@ package jdbc;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println("Hello world");
+		String name = "";
+		String url = "";
+		String query = "";
+		
+		Class.forName("com.mysql.jdbc.Driver");
 
 	}
 
