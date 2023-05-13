@@ -23,7 +23,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		System.out.println("Hello world");
 		String name = "root";
-		String url = "jdbc:mysql://loaclhost:3306:student";
+		String url = "jdbc:mysql://localhost:3306:student";
 		String password = "123456789";
 		String query = "select name from student where id=1";
 		
