@@ -9,6 +9,7 @@ public class AddServlet extends HttpServlet{
 		int x = Integer.parseInt(req.getParameter("num1"));
 		int y = Integer.parseInt(req.getParameter("num2"));
 		int sum = x + y;
+		System.out.println("hello world");
 		System.out.println(sum);
 	}
 }

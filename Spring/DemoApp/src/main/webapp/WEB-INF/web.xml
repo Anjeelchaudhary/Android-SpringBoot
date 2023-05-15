@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<servlet>
 		<servlet-name>abc</servlet-name>
 		<servlet-class>com.servlet.AddServlet</servlet-class>
@@ -8,7 +8,7 @@
 	
 	<servlet-mapping>
 		<servlet-name>abc</servlet-name>
-		<url-pattern>/DemoApp/addition</url-pattern>
+		<url-pattern>/addition</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
