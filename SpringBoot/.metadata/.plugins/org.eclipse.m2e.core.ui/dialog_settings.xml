@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/anjeelchaudhary/Downloads/testone"/>
+			<item value="/Users/anjeelchaudhary/workingRobo/Repos/Android-SpringBoot/SpringBoot"/>
 			<item value="/Users/anjeelchaudhary/Downloads/helloworld"/>
 			<item value="/Users/anjeelchaudhary/Downloads/firstpractice"/>
 			<item value="/Users/anjeelchaudhary/Downloads/springrest"/>

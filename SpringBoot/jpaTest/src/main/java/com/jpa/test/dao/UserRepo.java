@@ -1,5 +1,8 @@
-package com.jpa.test.dao;
+ package com.jpa.test.dao;
 
-public interface UserRepo {
+import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepo extends CrudRepository<User , Integer>{
 
 }
