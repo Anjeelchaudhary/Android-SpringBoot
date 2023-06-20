@@ -18,6 +18,7 @@ public class UserController {
     @PostMapping("/user")
     //through RequestBody we can inject json file in
     User newUser(@RequestBody User newUser) {
+
         return userRepository.save(newUser);
     }
 
@@ -26,4 +27,17 @@ public class UserController {
     List<User> getAllUser() {
         return userRepository.findAll();
     }
+
+//    PutMapping is used when we need to update existing data
+//    @PutMapping("/user/{id}")
+//    public User()
+
+
+//
+//    DeleteMapping is used to detele data from database
+//    @DeleteMapping("/user")
+//
+//     PatchMapping is used when we need to update partially
+//     @PatchMapping("/user")
+
 }
