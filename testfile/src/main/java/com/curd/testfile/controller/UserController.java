@@ -4,6 +4,7 @@ import com.curd.testfile.entity.User;
 import com.curd.testfile.repo.UserRepository;
 import com.curd.testfile.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,7 +25,12 @@ public class UserController {
     }
 
     @GetMapping("/find/{id}")
-    public User getUser(@PathVariable Long id) {
-        return userService.getUser(id);
+    public ResponseEntity<User> getUser(@PathVariable Long id) {
+        User user = userService.getUserById(id);
+        if (user != null) {
+            return ResponseEntity.ok(user);
+        }else  {
+            return ResponseEntity.notFound().build();
+        }
     }
 }
