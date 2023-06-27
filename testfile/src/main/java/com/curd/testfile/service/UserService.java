@@ -21,4 +21,11 @@ public class UserService {
     public User getUserById(Long id) {
         return userRepository.findById(id).orElse(null);
     }
+    public User updateUserById(Long id, User user) {
+        User existingUser = userRepository.findById(user.getId()).orElse(null);
+        assert existingUser != null;
+        existingUser.setId(user.getId());
+        existingUser.setName(user.getName());
+        return userRepository.save(existingUser);
+    }
 }
