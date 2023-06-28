@@ -33,7 +33,7 @@ public class UserController {
             return ResponseEntity.notFound().build();
         }
     }
-    @GetMapping("/update/{id}")
+    @GetMapping("/update")
     public  ResponseEntity<User> updateUser(@PathVariable Long id , @RequestBody User user) {
         User existUser = userService.updateUserById(id,user);
         if (existUser != null) {
