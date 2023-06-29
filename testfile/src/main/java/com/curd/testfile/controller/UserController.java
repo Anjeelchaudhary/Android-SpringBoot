@@ -1,7 +1,6 @@
 package com.curd.testfile.controller;
 
 import com.curd.testfile.entity.User;
-import com.curd.testfile.repo.UserRepository;
 import com.curd.testfile.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
