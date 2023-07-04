@@ -23,7 +23,6 @@ public class UserService {
     }
     public User updateUserById(Long id, User user) {
         User existingUser = userRepository.findById(user.getId()).orElse(null);
-        assert existingUser != null;
         existingUser.setName(user.getName());
         return userRepository.save(existingUser);
     }
