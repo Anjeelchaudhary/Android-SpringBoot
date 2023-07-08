@@ -14,7 +14,7 @@ const Home = () => {
     },[useApi])
     return (
         <div>
-            <div >Hello anoj</div>
+            <div >Its Home</div>
             {
                 useApi.map((item)=>(
                     <div className='flex justify-around items-centre'>

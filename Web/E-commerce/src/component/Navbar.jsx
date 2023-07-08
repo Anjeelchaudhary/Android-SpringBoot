@@ -22,10 +22,9 @@ const Navbar = () => {
             </ul>
             <ul>
               <Link to={PageRoutes.SEARCH}><li className='px-3'>Search</li></Link>
-
             </ul>
             <ul>
-              <li className='px-3'>ProductDetail</li>
+              <Link to={PageRoutes.PRODUCTDETAIL}><li className='px-3'>ProductDetails</li></Link>
             </ul>
           </div>
           {/* 3rd socialMediaUploadingPart */}
